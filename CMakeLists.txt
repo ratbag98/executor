@@ -10,7 +10,7 @@ configure_file(
         "${PROJECT_BINARY_DIR}/ExecutorConfig.h"
 )
 
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++0x")
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++0x -Wno-uninitialized")
 
 include_directories(
         "${PROJECT_BINARY_DIR}"

@@ -41,7 +41,7 @@ void wait() {
 int main(int argc, char **argv) {
     std::cout << "Executor v." << int(Executor_VERSION_MAJOR) << "." << int(Executor_VERSION_MINOR) << std::endl;
     if (argc != 2) {
-        std::cout << "usage: " << argv[0]
+        std::cout << "Usage: " << argv[0]
         << " FILE." << std::endl;
         return 0;
     }

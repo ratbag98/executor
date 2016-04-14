@@ -26,3 +26,6 @@ target_link_libraries(executor quickfix)
 include (CTest)
 
 add_test (ExecutorRuns executor)
+
+add_test (ExecutorUsage executor)
+set_tests_properties(ExecutorUsage PROPERTIES PASS_REGULAR_EXPRESSION "Usage: .*executor")

@@ -1,6 +1,9 @@
 cmake_minimum_required(VERSION 3.5)
 project(executor)
 
+include (CTest)
+enable_testing()
+
 set(Executor_VERSION_MAJOR 1)
 set(Executor_VERSION_MINOR 0)
 
@@ -23,7 +26,6 @@ link_directories(/Users/robr/src/quickfix/lib)
 add_executable(executor executor.cpp Application.cpp)
 target_link_libraries(executor quickfix)
 
-include (CTest)
 
 add_test (ExecutorRuns executor)
 

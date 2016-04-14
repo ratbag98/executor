@@ -1,0 +1,2 @@
+#define Executor_VERSION_MAJOR @Executor_VERSION_MAJOR@
+#define Executor_VERSION_MINOR @Executor_VERSION_MINOR@

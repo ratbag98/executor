@@ -27,12 +27,7 @@
 
 #include "quickfix/FileStore.h"
 #include "quickfix/ThreadedSocketAcceptor.h"
-#include "quickfix/Log.h"
-#include "quickfix/SessionSettings.h"
 #include "Application.h"
-#include <string>
-#include <iostream>
-#include <fstream>
 
 #include "ExecutorConfig.h"
 

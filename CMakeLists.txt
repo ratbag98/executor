@@ -22,3 +22,7 @@ link_directories(/Users/robr/src/quickfix/lib)
 
 add_executable(executor executor.cpp Application.cpp)
 target_link_libraries(executor quickfix)
+
+include (CTest)
+
+add_test (ExecutorRuns executor)

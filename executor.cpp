@@ -21,7 +21,7 @@
 #pragma warning( disable : 4503 4355 4786 )
 #else
 
-#include "config.h"
+// #include "config.h"
 
 #endif
 

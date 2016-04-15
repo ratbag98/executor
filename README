@@ -1,0 +1,8 @@
+
+ln -s ~/src/quickfix/spec spec
+mkdir mybuild
+cd mybuild
+cmake ..
+make
+make test
+./executor ~/src/quickfix/bin/cfg/executor.cfg
